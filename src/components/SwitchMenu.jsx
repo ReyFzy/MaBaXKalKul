@@ -16,7 +16,7 @@ export const SwitchMenu = () => {
             alt: "MaBa",
             produk: "MaBa",
             desc: "Si MaBa appetizer-nya mahasiswa italia",
-            link: "https://api.whatsapp.com/send/?phone=6285877547692&text=Halo+Min+aku+mau+pesan+MaBa+%EF%BF%BD%0A%0APesanannya+atas+nama+%3A+...%0AKelas+aku+hari+jumat+di+%3A+...%0Akalo+bisa+antar+jam+%3A+...+ya+min%0A%0Aterimakasih+min+ditunggu+pesananya+%EF%BF%BD%EF%BF%BD&type=phone_number&app_absent=0"
+            link: "https://api.whatsapp.com/send/?phone=6285877547692&text=Halo%20Min%20aku%20mau%20pesan%20MaBa%20%F0%9F%98%8B%0A%0APesanannya%20atas%20nama%20%3A%20...%0AKelas%20aku%20hari%20jumat%20di%20%3A%20...%0Akalo%20bisa%20antar%20jam%20%3A%20...%20ya%20min%0A%0Aterimakasih%20min%20ditunggu%20pesananya%20%F0%9F%98%8B%F0%9F%91%86%F0%9F%8F%BB&type=phone_number&app_absent=0"
         },
     ];
 
