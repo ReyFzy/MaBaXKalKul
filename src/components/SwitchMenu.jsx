@@ -6,6 +6,7 @@ export const SwitchMenu = () => {
             img: "./img/kalkul.jpg",
             alt: "KalKul",
             produk: "KalKul",
+            price: "3K",
             desc: "Si KalKul dessert-nya orang kul",
             link: "https://api.whatsapp.com/send/?phone=6285877547692&text=Halo%20Min%20aku%20mau%20pesan%20KalKul%20%F0%9F%98%8B%0A%0APesanannya%20atas%20nama%20%3A%20...%0AKan%20rasanya%20ada%20coklat%2C%20tiramisu%20sama%20matcha.%0Aaku%20mau%20pesen%20rasa%20%3A%20...%0AKelas%20aku%20hari%20jumat%20di%20%3A%20...%0Akalo%20bisa%20antar%20jam%20%3A%20...%20ya%20min%0A%0Aterimakasih%20min%20ditunggu%20pesananya%20%F0%9F%98%8B%F0%9F%91%86%F0%9F%8F%BB&type=phone_number&app_absent=0"
         },
@@ -16,6 +17,7 @@ export const SwitchMenu = () => {
             alt: "MaBa",
             produk: "MaBa",
             desc: "Si MaBa appetizer-nya mahasiswa italia",
+            price: "8K",
             link: "https://api.whatsapp.com/send/?phone=6285877547692&text=Halo%20Min%20aku%20mau%20pesan%20MaBa%20%F0%9F%98%8B%0A%0APesanannya%20atas%20nama%20%3A%20...%0AKelas%20aku%20hari%20jumat%20di%20%3A%20...%0Akalo%20bisa%20antar%20jam%20%3A%20...%20ya%20min%0A%0Aterimakasih%20min%20ditunggu%20pesananya%20%F0%9F%98%8B%F0%9F%91%86%F0%9F%8F%BB&type=phone_number&app_absent=0"
         },
     ];
@@ -43,6 +45,7 @@ export const SwitchMenu = () => {
                 <div className="min-w-max flex gap-2 px-5">
                 {showedMenu.map((ele, i) => (
                     <div key={i} className="card-head">
+                    <div className="card-price absolute top-0 left-0">{ele.price}</div>
                         <img src={ele.img} alt={ele.alt} className="card-96-img" />
                         <div className="card-shade bg-black/25">
                         <div className="column gap-1">
