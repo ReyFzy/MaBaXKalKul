@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+  *{
+    scroll-behavior: smooth;
+  }
+  *::-webkit-scrollbar{
+    overflow: hidden;
+  }
+}
+
+@layer components{
+  /* font */
+  .text-muted {
+    @apply text-white/60;
+  }
+  .poppins-bold {
+    @apply font-poppins text-4xl font-bold text-black;
+  }
+  .rubik-bold {
+    @apply font-rubik text-4xl text-black;
+  }
+  .rubik-bold-white {
+    @apply font-rubik text-4xl text-white w-4/5;
+  }
+  .rubik-bold-muted {
+    @apply font-rubik font-extrabold text-4xl text-gray-800;
+  }
+
+  /* button */
+  .btn-head{
+    @apply px-7 py-2 border-none rounded-3xl w-fit bg-yellow-100 font-medium text-macaroni animate-pulse;
+  }
+  .btn-active{
+    @apply  px-4 py-2 font-poppins bg-macaroni font-medium text-white w-fit hover:bg-transparent border-macaroni border-2 hover:text-macaroni duration-700 transition-all;
+  }
+  .btn-on{
+    @apply  px-5 py-1 font-poppins bg-macaroni font-medium text-white w-fit z-30;
+  }
+  .btn-off{
+    @apply  px-5 py-1 font-poppins bg-neutral-300/75 font-medium text-white w-fit cursor-pointer;
+  }
+  .btn-card{
+    @apply py-1 px-2 font-poppins bg-transparent border-2 border-neutral-50 text-neutral-50 rounded-md text-xs w-fit z-50 hover:bg-neutral-50 hover:text-macaroni duration-300;
+  }
+
+  /* card */
+  .card-head{
+    @apply border-neutral-400 shadow-neutral-400 rounded-lg w-[215px] h-[215px] hover:scale-100 transition-all duration-300 relative overflow-hidden flex items-center justify-center;
+  }
+  .card-64 {
+    @apply rounded-3xl relative overflow-hidden flex items-center justify-center w-64 h-64;
+  }
+  .card-96 {
+    @apply rounded-3xl relative overflow-hidden flex items-center justify-center w-64 h-96 transition-all duration-700;
+  }
+  .card-64-img {
+    @apply h-full w-full scale-100 object-cover;
+  }
+  .card-96-img {
+    @apply h-full w-full object-cover;
+  }
+  .card-title {
+    @apply text-white text-sm font-bold font-poppins;
+  }
+  .card-desc {
+    @apply text-white text-xs font-medium;
+  }
+  .card-shade {
+    @apply bg-slate-600/20 absolute inset-0 p-5 flex items-end;
+  }
+
+
+  /* layout */
+  .column {
+    @apply flex flex-col;
+  }
+  .frame {
+    @apply h-[300px] rounded-xl;
+  }
+}
