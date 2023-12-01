@@ -41,7 +41,7 @@ export const SwitchMenu = () => {
                 <SwitchButton showMenu={showMenu} Menu={Menu} menu={'kalkul'} text={"Dessert"}/>
             </div>
 
-            <div className="overflow-x-auto w-full flex">
+            <div className="overflow-x-auto w-full flex justify-center items-center gap-3">
                 <div className="min-w-max flex gap-2 px-5">
                 {showedMenu.map((ele, i) => (
                     <div key={i} className="card-head">
