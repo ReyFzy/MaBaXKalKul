@@ -11,7 +11,7 @@ export const HeadSection =()=> {
                             <button className="btn-active text-sm rounded">Kepoin Menunya!</button>
                         </a>
                     </div>
-                    <iframe src="https://www.instagram.com/reel/Cz6S6PExqvV/embed/" className="frame w-[300px] mt-7" title="MaBa X KalKul"></iframe>
+                    <iframe src="https://www.instagram.com/reel/C0O1hpLJS4o/embed/" className="frame w-[300px] mt-7" title="MaBa X KalKul"></iframe>
                     
                 </div>
             </div>
